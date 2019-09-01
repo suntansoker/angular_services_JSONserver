@@ -1,0 +1,23 @@
+table, td {
+    border: 1px solid black;
+}
+
+#list-title{
+color:teal;
+}
+
+#table_head{
+    color:darkred;
+}
+
+.table_rows{
+    color:darkblue;
+}
+
+#inputs{
+    color:red;
+}
+
+#btn{
+    color:blue;
+}

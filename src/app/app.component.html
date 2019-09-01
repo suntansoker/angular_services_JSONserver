@@ -1,0 +1,9 @@
+<div>
+    <h1 id="head_title">Demonstration of obtaining data from server through a service</h1> 
+  <p *ngIf="showDetails" id="recent">Recently added product:
+     {{new_added[0]}},{{new_added[1]}}</p> 
+     
+  <hr/>
+  <prod-component (addedNameQuantityEvent)='printAdded($event)'></prod-component>
+  </div> 
+ 

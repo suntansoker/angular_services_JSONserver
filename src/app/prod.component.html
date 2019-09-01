@@ -1,0 +1,23 @@
+<div>
+    <h3 id="list-title">Products List - Amazon</h3>
+
+    <table>
+        <tr id="table_head">
+            <td><b>Product Name</b></td>
+            <td><b>Quantity</b></td>
+        </tr>
+        <tr *ngFor='let n of products' class="table_rows">
+            <td>{{n.name}}</td>
+            <td>{{n.quantity}}</td>
+        </tr>
+    </table>
+
+    <div> 
+        <p id="inputs">Enter product name:
+            <input type = "text" (input)='name=$event.target.value' />
+            Enter quantity:
+            <input type = "text" value="1" (input)='quantity=$event.target.value' />
+            <button id="btn" (click)='addProduct(name,quantity); addEvent()'>Add Product</button>
+        </p>
+    </div>
+</div>
