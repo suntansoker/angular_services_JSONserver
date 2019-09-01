@@ -1,4 +1,4 @@
-# Proj3
+# Using angular service with JSON server
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.1.1.
 
